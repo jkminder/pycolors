@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pycolors"
+authors = [
+    {name = "Julian Minder"},
+]
+description = "A library for color palettes"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "plotly",
+]
+dynamic = ["version"]
